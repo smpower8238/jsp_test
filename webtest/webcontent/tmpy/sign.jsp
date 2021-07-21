@@ -14,7 +14,8 @@ if (db.Check_sign(id) == false){
 	%><script type="text/javascript">
 	alert('회원가입 완료');
 		location.href = "index.jsp";
-	</script><%}
+	</script>
+<%}
 else {
 %><script type="text/javascript">
 	alert('아이디가 존재합니다!');

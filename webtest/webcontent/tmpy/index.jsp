@@ -114,7 +114,7 @@ DB_Connect db = new DB_Connect();
 					</div>
 				</section>
 			</article>
-			
+
 			<article id="write" class="panel">
 				<header>
 					<h2>게시판 등록</h2>

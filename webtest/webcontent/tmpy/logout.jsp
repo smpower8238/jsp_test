@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"
-    import="webtest.*"%>
+	pageEncoding="UTF-8" import="webtest.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%SaveId.id=null;     %>
+	<%SaveId.id=null;     %>
 
-<script type="text/javascript">
+	<script type="text/javascript">
 		location.href = "index.jsp";
 	</script>
 </body>
