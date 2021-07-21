@@ -1,4 +1,4 @@
-<%@page import="webtest.DB_Connect"%>
+<%@page import="webtest.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%
@@ -13,12 +13,12 @@ if (db.Check_sign(id) == false){
 	db.Create_User_test(id, pass, mail, name, message);
 	%><script type="text/javascript">
 	alert('회원가입 완료');
-		location.href = "index.html";
+		location.href = "index.jsp";
 	</script><%}
 else {
 %><script type="text/javascript">
 	alert('아이디가 존재합니다!');
-	location.href = "index.html";
+	location.href = "index.jsp";
 	</script>
 <%
 }

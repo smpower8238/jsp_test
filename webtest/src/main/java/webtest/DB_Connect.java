@@ -15,8 +15,8 @@ public class DB_Connect {
 
 	public void Connect() {
 
-		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-		String ids = "board";
+		String url = "jdbc:oracle:thin:@localhost:1522:xe";
+		String ids = "c##board";
 		String pw = "1234";
 		try {
 			Class.forName("oracle.jdbc.OracleDriver");
